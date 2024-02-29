@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: #141414;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.card {
+    width: 384px;
+    height: 590px;
+    padding: 40px 40px 40px 40px;
+    background-color: #1f1f1f;
+    border-radius: 20px;
+}
+.image__card {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translateX(110px);
+}
+.card__hidline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card__title {
+    color: white;
+    margin-top: 20px;
+}
+.card__manzil {
+    color: #c4f82a;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.card__text {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.card__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn {
+    color: white;
+    background-color: #333333;
+    padding-right: 12px;
+    padding-top: 12px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    transition: .3s;
+}
+.btn:active {
+    background: #c4f82a;
+    color: black;
+}
